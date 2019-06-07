@@ -14,7 +14,7 @@ public class MainContainer {
 
         Runtime rt = Runtime.instance();
         Properties p = new ExtendedProperties();
-        p.setProperty("gui", "true");
+        //p.setProperty("gui", "true");
         ProfileImpl profile = new ProfileImpl(p);
         mainContainer = rt.createMainContainer(profile);
 
